@@ -1,20 +1,20 @@
 @charset "utf-8";
 :root {
-  --g-col1: #1f3134;
+  --g-col1: #16160e;
   --m-fcol1: #c0c6c9;
   --m-fcol2: #888084;
   --m-fcol3: #ffffff;
   --m-fcol4: #c0c6c9;
   --m-fcol5: #e6c619;
 	--b-col1: #e6c619;
-	--b-col2: #1f3134;
+	--b-col2: #16160e;
 	--b-col3: #888084;
 	--ku-col1: #c7b370;
-	--ku-col2: #007bbb;
+	--ku-col2: #00a3af;
 	--ku-col3: #ebf6f7;
 	--ku-col4: #888084;
-	--sh-col1: #b94047;
-	--sh-col2: #674598;
+	--sh-col1: #d9333f;
+	--sh-col2: #7058a3;
 	--sh-col3: #ee7800;
 	--sh-col4: #888084;
 }
@@ -124,30 +124,35 @@ background-size: 50px 25px;
 	bottom: 0px;
 	right: 0px;
 }
+.ku1{color: var(--ku-col1);}
 .ku1:before{
 	border-left:30px solid var(--ku-col1);
 }
 .ku1:after{
 	border-bottom:30px solid var(--ku-col1);
 }
+.ku2{color: var(--ku-col2);}
 .ku2:before{
 	border-left:30px solid var(--ku-col2);
 }
 .ku2:after{
 	border-bottom:30px solid var(--ku-col2);
 }
+.ku3{color: var(--ku-col3);}
 .ku3:before{
 	border-left:30px solid var(--ku-col3);
 }
 .ku3:after{
 	border-bottom:30px solid var(--ku-col3);
 }
+.ku4{color: var(--ku-col4);}
 .ku4:before{
 	border-left:30px solid var(--ku-col4);
 }
 .ku4:after{
 	border-bottom:30px solid var(--ku-col4);
 }
+.sh1{color: var(--sh-col1);}
 .sh1:before{
 	border-left:30px solid var(--sh-col1);
 }
@@ -157,18 +162,21 @@ background-size: 50px 25px;
 .sh2:before{
 	border-left:30px solid var(--sh-col2);
 }
+.sh2{color: var(--sh-col2);}
 .sh2:after{
 	border-bottom:30px solid var(--sh-col2);
 }
 .sh3:before{
 	border-left:30px solid var(--sh-col3);
 }
+.sh3{color: var(--sh-col3);}
 .sh3:after{
 	border-bottom:30px solid var(--sh-col3);
 }
 .sh4:before{
 	border-left:30px solid var(--sh-col4);
 }
+.sh4{color: var(--sh-col4);}
 .sh4:after{
 	border-bottom:30px solid var(--sh-col4);
 }
