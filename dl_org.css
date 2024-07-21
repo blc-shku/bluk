@@ -4,6 +4,8 @@
   --m-fcol1: #c0c6c9;
   --m-fcol2: #888084;
   --m-fcol3: #ffffff;
+  --m-fcol4: #c0c6c9;
+  --m-fcol5: #e6c619;
 	--b-col1: #e6c619;
 	--b-col2: #1f3134;
 	--b-col3: #888084;
@@ -36,6 +38,15 @@ hr {
 font[color="#fff"]{
 	color: var(--m-fcol2);
 	font-weight: 600;
+}
+font[color="#852e19"]{
+	color: var(--m-fcol4);
+	border-bottom: 1px solid var(--m-fcol4);
+	font-weight: 600;
+}
+font[color="#336699"]{
+	color: var(--m-fcol5);
+	font-style: italic;
 }
 h2.umebana{
   -webkit-writing-mode: vertical-rl;
