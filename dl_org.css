@@ -128,8 +128,14 @@ background-size: 50px 25px;
 .ku1:before{
 	border-left:30px solid var(--ku-col1);
 }
+a.ku1:link, a.ku1:visited, a.ku1:hover, a.ku1:active {
+  color: var(--ku-col1);
+}
 .ku1:after{
 	border-bottom:30px solid var(--ku-col1);
+}
+a.ku2:link, a.ku2:visited, a.ku2:hover, a.ku2:active {
+  color: var(--ku-col2);
 }
 .ku2{color: var(--ku-col2);}
 .ku2:before{
@@ -152,12 +158,18 @@ background-size: 50px 25px;
 .ku4:after{
 	border-bottom:30px solid var(--ku-col4);
 }
+a.sh1:link, a.sh1:visited, a.sh1:hover, a.sh1:active {
+  color: var(--sh-col1);
+}
 .sh1{color: var(--sh-col1);}
 .sh1:before{
 	border-left:30px solid var(--sh-col1);
 }
 .sh1:after{
 	border-bottom:30px solid var(--sh-col1);
+}
+a.sh2:link, a.sh2:visited, a.sh2:hover, a.sh2:active {
+  color: var(--sh-col2);
 }
 .sh2:before{
 	border-left:30px solid var(--sh-col2);
