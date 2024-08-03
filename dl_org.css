@@ -43,12 +43,11 @@ font[color="#fff"]{
 }
 font[color="#852e19"]{
 	color: var(--m-fcol4);
-	//border-bottom: 1px dashed var(--m-fcol4);
 	background:linear-gradient(transparent 60%, var(--g-col2) 30%);
 	font-weight: 600;
 }
 font[color="#336699"]{
-	color: var(--m-fcol3);
+	color: var(--m-fcol4);
 	font-weight: 600;
 }
 h2.umebana{
