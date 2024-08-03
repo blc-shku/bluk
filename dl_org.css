@@ -24,10 +24,11 @@
 	font-family: 'Sawarabi Mincho',游明朝,"Yu Mincho",YuMincho,"Hiragino Mincho ProN",HGS明朝E,メイリオ,Meiryo,serif;
 }
 body {
-  font-size: 12px;
+  font-size: 11px;
   letter-spacing: 0.02em;
   color: var(--m-fcol1);
 	background-color: var(--g-col1);
+	padding: 1em 1.5em;
 }
 a:link, a:visited, a:hover, a:active {
   text-decoration: none;
@@ -103,6 +104,7 @@ background-size: 50px 25px;
 .cover{
 	text-align: center;
 	font-style: bold;
+	font-size: 12px;
 }
 .box{
 	margin: 2em auto;
@@ -110,6 +112,7 @@ background-size: 50px 25px;
 	position: relative;
 	color: var(--m-fcol3);
 	font-feature-settings: "palt";
+	font-size: 12px;
 }
 .box:before{
 	border-bottom:30px solid transparent;
